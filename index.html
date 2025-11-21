@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Roti Bakar Sambara</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+    <link rel="apple-touch-icon" href="/apple-touch-logo.png">
+</head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="brand">ROTI BAKAR SAMBARA</div>
+    <nav class="nav">
+      <a href="#home" class="nav-btn active">Home</a>
+      <a href="#menu" class="nav-btn">Menu</a>
+      <a href="#contact" class="nav-btn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO + SLIDER (2 gambar: gunakan path file yang ada) -->
+  <section id="home" class="hero">
+    <div class="slider-container" aria-label="Image slider">
+      <!-- gunakan path lokal yang ada di history /mnt/data/... -->
+      <img src="roti.jpg" alt="Poster Roti Bakar Sambara" class="slide active">
+      <img src="poster.jpg" alt="Roti Bakar Sambara" class="slide">
+
+      <button class="arrow prev" aria-label="Previous slide">&#10094;</button>
+      <button class="arrow next" aria-label="Next slide">&#10095;</button>
+
+      <div class="dots" role="tablist" aria-label="Pagination">
+        <button class="dot active" aria-label="Slide 1"></button>
+        <button class="dot" aria-label="Slide 2"></button>
+      </div>
+    </div>
+
+    <div class="hero-description">
+      <p>
+        Roti Bakar Sambara menyajikan roti tawar isi selai dan coklat berkualitas dipanggang hingga renyah di luar dan lumer di dalam.
+        Kami memilih bahan terbaik untuk setiap topping agar setiap gigitan memberikan kenikmatan maksimal.
+      </p>
+      <p>
+        Dari menu klasik hingga varian crunchy dan spesial Nutella, semua dibuat segar per pesanan. Pelayanan ramah dan pembuatan cepat siap melayani acara, nongkrong, atau cemilan keluarga. Setiap gigitan menjanjikan ledakan rasa otentik dan tekstur yang sempurna, dibuat hanya dari bahan-bahan terbaik.
+      </p>
+    </div>
+  </section>
+
+  <!-- MENU (C: series card + varian di dalamnya) -->
+  <main id="menu" class="container">
+    <h2 class="section-title">Daftar Menu Roti Bakar Sambara</h2>
+
+    <!-- BASIC SERIES -->
+    <section class="series-card menu-card">
+      <h3 class="series-title">BASIC SERIES</h3>
+      <ul class="series-list">
+        <li data-name="Strawberry - Nanas">Strawberry - Nanas <span class="price">18K</span></li>
+        <li data-name="Nanas - Coklat">Nanas - Coklat <span class="price">20K</span></li>
+        <li data-name="Coklat - Coklat">Strawberry - Coklat <span class="price">20K</span></li>
+        <li data-name="Coklat - Nanas">Coklat - Kacang <span class="price">20K</span></li>
+        <li data-name="Coklat - Kacang">Coklat - Kacang <span class="price">20K</span></li>
+        <li data-name="Kacang - Nanas">Kacang - Nanas <span class="price">20K</span></li>
+        <li data-name="Kacang - Strawberry">Kacang - Strawberry <span class="price">20K</span></li>
+        <li data-name="Coklat - Kaya">Coklat - Kaya <span class="price">23K</span></li>
+        <li data-name="Coklat - Keju">Coklat - Keju <span class="price">23K</span></li>
+        <li data-name="Kacang - Kaya">Kacang - Kaya <span class="price">23K</span></li>
+        <li data-name="Kacang - Keju">Kacang - Keju <span class="price">23K</span></li>
+        <li data-name="Keju - Nanas">Keju - Nanas <span class="price">23K</span></li>
+        <li data-name="Keju - Strawberry">Keju - Strawberry <span class="price">23K</span></li>
+        <li data-name="Keju - Kaya">Keju - Kaya <span class="price">25K</span></li>
+        <li data-name="Keju - Keju">Keju - Keju <span class="price">25K</span></li>
+        <li data-name="Kaya - Kaya">Kaya - Kaya <span class="price">25K</span></li>
+      </ul>
+    </section>
+
+    <!-- SPESIAL NUTELLA -->
+    <section class="series-card menu-card">
+      <h3 class="series-title">SPESIAL NUTELLA</h3>
+      <ul class="series-list">
+        <li data-name="Nutella - Nanas">Nutella - Nanas <span class="price">28K</span></li>
+        <li data-name="Nutella - Strawberry">Nutella - Strawberry <span class="price">28K</span></li>
+        <li data-name="Nutella - Coklat">Nutella - Coklat <span class="price">30K</span></li>
+        <li data-name="Nutella - Kacang">Nutella - Kacang <span class="price">30K</span></li>
+        <li data-name="Nutella - Keju">Nutella - Keju <span class="price">33K</span></li>
+        <li data-name="Nutella - Kaya">Nutella - Kaya <span class="price">33K</span></li>
+        <li data-name="Nutella - Tiramisu Crunchy">Nutella - Tiramisu Crunchy <span class="price">33K</span></li>
+        <li data-name="Nutella - Keju Crunchy">Nutella - Keju Crunchy <span class="price">33K</span></li>
+        <li data-name="Nutella - Keju Crunchy">Nutella - Choco Crunchy <span class="price">33K</span></li>
+        <li data-name="Nutella Original">Nutella (Original) <span class="price">35K</span></li>
+      </ul>
+    </section>
+
+    <!-- CHOCO CRUNCHY -->
+    <section class="series-card menu-card">
+      <h3 class="series-title">CHOCO CRUNCHY SERIES</h3>
+      <ul class="series-list">
+        <li data-name="Choco Crunchy - Nanas">Choco Crunchy - Nanas <span class="price">23K</span></li>
+        <li data-name="Choco Crunchy - Strawberry">Choco Crunchy - Strawberry <span class="price">23K</span></li>
+        <li data-name="Choco Crunchy - Coklat">Choco Crunchy - Coklat <span class="price">23K</span></li>
+        <li data-name="Choco Crunchy - Kacang">Choco Crunchy - Kacang <span class="price">23K</span></li>
+        <li data-name="Choco Crunchy - Keju">Choco Crunchy - Keju <span class="price">25K</span></li>
+        <li data-name="Choco Crunchy - Kaya">Choco Crunchy - Kaya <span class="price">25K</span></li>
+        <li data-name="Choco Crunchy - Choco Crunchy">Choco Crunchy - Choco Crunchy <span class="price">25K</span></li>
+        <li data-name="Choco Crunchy - Tiramisu Crunchy">Choco Crunchy - Tiramisu Crunchy <span class="price">28K</span></li>
+        <li data-name="Choco Crunchy - Keju Crunchy">Choco Crunchy - Keju Crunchy <span class="price">28K</span></li>
+        <li data-name="Choco Crunchy - Nutella">Choco Crunchy - Nutella <span class="price">33K</span></li>
+      </ul>
+    </section>
+
+    <!-- KEJU CRUNCHY -->
+    <section class="series-card menu-card">
+      <h3 class="series-title">KEJU CRUNCHY SERIES</h3>
+      <ul class="series-list">
+        <li data-name="Keju Crunchy - Nanas">Keju Crunchy - Nanas <span class="price">23K</span></li>
+        <li data-name="Keju Crunchy - Strawberry">Keju Crunchy - Strawberry <span class="price">23K</span></li>
+        <li data-name="Keju Crunchy - Coklat">Keju Crunchy - Coklat <span class="price">25K</span></li>
+        <li data-name="Keju Crunchy - Kacang">Keju Crunchy - Kacang <span class="price">25K</span></li>
+        <li data-name="Keju Crunchy - Keju">Keju Crunchy - Keju <span class="price">28K</span></li>
+        <li data-name="Keju Crunchy - Kaya">Keju Crunchy - Kaya <span class="price">28K</span></li>
+        <li data-name="Keju Crunchy - Tiramisu Crunchy">Keju Crunchy - Tiramisu Crunchy <span class="price">28K</span></li>
+        <li data-name="Keju Crunchy - Choco Crunchy">Keju Crunchy - Choco Crunchy <span class="price">28K</span></li>
+        <li data-name="Keju Crunchy - Keju Crunchy">Keju Crunchy - Keju Crunchy <span class="price">30K</span></li>
+        <li data-name="Keju Crunchy - Nutella">Keju Crunchy - Nutella <span class="price">32K</span></li>
+      </ul>
+    </section>
+
+    <!-- TIRAMISU CRUNCHY -->
+    <section class="series-card menu-card">
+      <h3 class="series-title">TIRAMISU CRUNCHY SERIES</h3>
+      <ul class="series-list">
+        <li data-name="Tiramisu Crunchy - Nanas">Tiramisu Crunchy - Nanas <span class="price">23K</span></li>
+        <li data-name="Tiramisu Crunchy - Strawberry">Tiramisu Crunchy - Strawberry <span class="price">23K</span></li>
+        <li data-name="Tiramisu Crunchy - Coklat">Tiramisu Crunchy - Coklat <span class="price">25K</span></li>
+        <li data-name="Tiramisu Crunchy - Kacang">Tiramisu Crunchy - Kacang <span class="price">25K</span></li>
+        <li data-name="Tiramisu Crunchy - Keju">Tiramisu Crunchy - Keju <span class="price">28K</span></li>
+        <li data-name="Tiramisu Crunchy - Kaya">Tiramisu Crunchy - Kaya <span class="price">28K</span></li>
+        <li data-name="Tiramisu Crunchy - Tiramisu Crunchy">Tiramisu Crunchy - Tiramisu Crunchy <span class="price">28K</span></li>
+        <li data-name="Tiramisu Crunchy - Choco Crunchy">Tiramisu Crunchy - Choco Crunchy <span class="price">28K</span></li>
+        <li data-name="Tiramisu Crunchy - Keju Crunchy">Tiramisu Crunchy - Keju Crunchy <span class="price">28K</span></li>
+        <li data-name="Tiramisu Crunchy - Nutella">Tiramisu Crunchy - Nutella <span class="price">33K</span></li>
+      </ul>
+    </section>
+    <h4>Semangat menjalani hari, kami menunggu pemesanan anda</h4>
+  </main>
+
+  <!-- WA Button -->
+  <div class="wa-wrap">
+    <a class="wa-fixed" href="https://wa.me/6282224086045" target="_blank" rel="noopener">Chat WA</a>
+  </div>
+
+  <!-- INFO BOX (IG, Lokasi, WA) -->
+  <footer class="info-box" id="contact">
+    <div class="info-item">
+      <!-- IG -->
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#7a4f2f"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 2c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3z"/></svg>
+      <a href="https://www.instagram.com/rotibakar.sambara?igsh=cjJybDA1dzk4cjIx" target="_blank">@rotibakar.sambara</a>
+    </div>
+    <div class="info-item">
+      <!-- Location -->
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#7a4f2f"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+      <p> Jl. Wolter Monginsidi, Samping Warkop 54 Pangkajene</p>
+    </div>
+    <div class="info-item">
+      <!-- WA -->
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366"><path d="M20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.6C8 23.5 10 24 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5z"/></svg>
+      <a href="https://wa.me/6282224086045" target="_blank">0822-2408-6045</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
